@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack-Yogi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  :root{
+    --topcolor:white;
+    --midcolor:lightblue;
+    --bottomcolor:rgb(10, 10, 70);
+  }
+</style>
+</head>
+<body> 
+
+<header>
+
+<!-- creating navbar -->
+
+    <div class="navbar">
+
+<!-- creating logo -->
+
+    <div class="navlogo">
+    </div>
+    
+<!-- creating searchbar -->
+
+    <div class="searchbar">
+
+    <!--category-->
+
+        <select class="category">
+          <option value="all">All</option>
+          <option value="Notes">Notes</option>
+          <option value="Codes">Codes</option>
+          <option value="Qzs">Qzs</option>
+          <option value="PYP">PYP</option>
+          <option value="Projects">Projects</option>
+        </select>
+    <!--input box-->
+
+      <input type="text" placeholder="Search..."  class="searchinput">
+    <!--searchbutton-->
+
+      <button type="submit" class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+    
+    </div>
+
+<!--creating right part of navbar navigating options-->
+
+<div class="rightnav">
+
+    <!--creating profilebutton-->
+
+    <div class="profilebutton">
+      <a href="logform.html">
+      <button class="buttons"><i class="fa-solid fa-user"></i></button>
+      </a>
+    </div>
+
+  
+
+   <!--creating notification button-->
+
+   <div class="notification">
+      <button class="buttons"><i class="fa-solid fa-bell"></i></button>
+    </div>
+
+   <!--creating support button-->
+
+   <div class="support">
+      <button class="buttons"><i class="fa-solid fa-headset"></i></button>
+   </div>
+
+   <!--creating settings button-->
+   <div class="settings">
+      <button class="buttons"><i class="fa-solid fa-gear"></i></button>
+    </div>
+
+    </div> <!--right nav div closed-->
+
+
+<!--creating dashboard button seperately-->
+
+   <div class="Dashboard">
+   <button class="dash"><i class="fa-solid fa-list"></i></button>
+   </div>
+    
+
+  
+
+   
+
+<!--navbar main div closed-->
+   </div>
+</header>
+
+<!-- creating mainbox -->
+ <main>
+    <div class="maintop">
+    <div class="hbox">
+    <img src="Buy12(1).png" alt="banner" class="bannerimg">
+    </div>
+    </div>
+
+  <!-- creating items boxes-->
+
+    <div class="category-heading">
+      <h2>OUR NEW LAUCHES</h2>
+    </div>
+
+  <div class="category-items">
+    
+
+
+       <div class="item1">
+    
+       <a href="#"><img src="pycourse(1).png" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>Python Full course</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+
+
+
+
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>JAVA Mastering</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+
+
+
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>DSA with C++</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+
+
+
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>Frontend Marathon</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+
+
+
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>Full Stack</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+
+
+
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>DBMS(Sql + NoSql)</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+
+
+
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>Data Analytics</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>Advanced Machine Learnig</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>Data Science</p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+           <div class="item1">
+    
+       <a href="#"><img src="syfade3.jpeg" alt="python-course" class="item-img"></a>
+    
+       <div class="item-dis">
+       <p>Backend </p>
+       <div class="item-price"><p id="cut">₹999</p><p id="real">₹499</p>
+       </div> 
+       </div>
+
+      <!--"buy-button" -->
+    
+      <button id="buy-now">Buy Now</button>
+
+    </div>
+
+
+  </div>
+ </main>
+ <hr>
+ <!--creating footer-->
+ <footer>
+
+
+  <div class="footer">
+    <p>Our mission is to provide high-quality tech education to everyone. And this intent is reflected in our carefully curated courses and resources. We always try to deliver the best learning experience possible with consideration of valuable feedbacks from our valuable customers.<i class="fa-solid fa-heart"></i></p>
+    <br>
+    <br>
+
+    <h3>You can also join our community by visiting the following platforms:</h3>
+    <br>
+    <div class="socials">
+      <a href="https://www.instagram.com/stackyogi/" target="_blank" id="instagram"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+
+      <a href="https://wa.me/+918381880538" target="_blank" id="whatsapp"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+
+     <a href="https://www.linkedin.com/in/aadityzz/?originalSubdomain=in" target="_blank" id="linkdin"><i class="fa-brands fa-square-linkedin"></i></a>
+
+    </div>
+
+    <br>
+    <br>
+
+    <h3>Contact Us:</h3>
+    <p id="email">Email <i class="fa-solid fa-envelope"></i> : <a href="mailto:info@stackyogi.com">info@stackyogi.com</a></p>
+    <p id="phone">Phone <i class="fa-solid fa-phone"></i> : <a href="tel:+918381880538">+91 8381880538</a></p>
+    <br>
+    <br>
+    <p>© 2024 Stack-Yogi. All rights reserved.</p>
+
+    <br>
+    Made with ❤️ and hard work of team stackyogi in India 🇮🇳 
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+  </div>
+
+
+  </footer>
+</body>
+</html>
